@@ -1,0 +1,68 @@
+/* Estilo para el cuerpo de la página */
+body {
+    background-image: url(img/fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Estilo del título principal */
+.welcome h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+    margin: 0;
+    padding: 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+/* Estilo para la reflexión (frase inspiradora) */
+.reflexion h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-top: 40px;
+    color: #000;
+}
+
+.reflexion p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #000;
+}
+
+/* Estilo para el botón */
+.button-container {
+    margin-top: 60px; /* Mueve el botón hacia abajo */
+}
+
+.btn {
+    padding: 12px 30px;
+    background-color: #5f4b8b; /* Violeta/azul oscuro */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+}
+
+/* Efecto al pasar el ratón (hover) sobre el botón */
+.btn:hover {
+    background-color: #34495e; /* Color negro azulado */
+    color: white;
+}
